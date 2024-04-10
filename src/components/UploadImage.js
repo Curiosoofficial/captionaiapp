@@ -1,4 +1,4 @@
-export default function Upload_Icon() {
+export default function UploadImg() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

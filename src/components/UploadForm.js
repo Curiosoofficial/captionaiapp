@@ -2,7 +2,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import Upload_Icon from "./UploadIcon";
+import UploadImg from "./UploadImage";
 
 
 export default function UploadForm() {
@@ -38,7 +38,7 @@ export default function UploadForm() {
         </div>
       )}
       <label className="bg-green-600 py-2 px-6 rounded-full inline-flex gap-2 border-2 border-purple-900 cursor-pointer">
-        <Upload_Icon />
+        <UploadImg />
         <span>Choose File</span>
         <input onChange={upload} type="file" className="hidden" />
       </label>
