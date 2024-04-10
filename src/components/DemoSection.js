@@ -3,13 +3,17 @@ import SparklesIcon from "./SparklesIcon";
 export default function DemoSection() {
     return(
         <section className="flex justify-around mt-12 items-center">
-        <div className="bg-gray-800/50 w-[240px] h-[480px] rounded-xl"></div>
+        <video autoPlay loop muted className="w-[270px] h-[480px] rounded-3xl z-40">
+          <source src="/assets/before.mp4"/>
+        </video>
 
         <div>
           <SparklesIcon />
         </div>
 
-        <div className="bg-gray-800/50 w-[240px] h-[480px] rounded-xl"></div>
+        <video autoPlay loop muted className="w-[270px] h-[480px] rounded-3xl z-40">
+          <source src="/assets/after.mp4"/>
+        </video>
       </section>
     )
 }

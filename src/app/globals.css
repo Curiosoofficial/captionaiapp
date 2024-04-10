@@ -18,3 +18,15 @@ input[type="color"]::-moz-color-swatch {
     border-radius: 5px;
     border: 2px solid #000000;
 }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
